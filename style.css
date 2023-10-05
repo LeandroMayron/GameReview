@@ -26,6 +26,8 @@ header, footer{
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    display: block;
+    justify-content: center;
 }
 
 .area span:last-child{
@@ -35,4 +37,17 @@ header, footer{
 }
 .area h2 {
     text-align: center;
+}
+
+.area-jogos{
+    max-width: 1024px;
+    overflow-x: scroll;
+}
+
+img{
+    width: 350px;
+}
+
+.area-img{
+    display: flex;
 }
