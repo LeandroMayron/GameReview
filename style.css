@@ -35,19 +35,47 @@ header, footer{
     padding: 5px;
     background-color: #ed5a0e;
 }
-.area h2 {
+.area h2, .area-jogos h2 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .area-jogos{
     max-width: 1024px;
+    margin: 10px auto;
     overflow-x: scroll;
+}
+
+.area-jogos p{
+    margin-bottom: 40px;
 }
 
 img{
     width: 350px;
+    padding: 15px 0;
 }
 
 .area-img{
     display: flex;
+    text-align: center;
+}
+
+figure{
+    margin: 10px 10px;
+}
+
+figure span:first-child{
+    display: inline;
+    padding: 10px 168px;
+    background-color: #ed5a0e;
+}
+
+figcaption{
+    width: 330px;
+    padding: 10px;
+    background-color: #ed5a0e;
+}
+
+footer{
+    margin-top: 20px;
 }
